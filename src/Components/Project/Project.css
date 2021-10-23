@@ -1,0 +1,22 @@
+.project{
+    width: 80%;
+    height: 30vh;
+    background-color: rgb(54, 72, 131);
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px auto;
+    color: rgb(221, 219, 219);
+
+}
+
+.image-space{
+    height: 80%;
+    width: cover;
+    margin-top: 0%;
+    
+    width: cover;
+	height: auto;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 100px solid rgb(0, 0, 0);
+}

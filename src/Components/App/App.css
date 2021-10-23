@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: max-content;
 }
 
 .App-logo {
@@ -8,7 +9,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
