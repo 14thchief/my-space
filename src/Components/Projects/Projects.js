@@ -13,15 +13,15 @@ export function Projects({ style }){
 
 
     const projectContainerStyle={
-        background: style.bgColor,
-        color: style.color
+        background: style.bgColorIntro,
+        color: style.colorIntro1
     }
 
     return(
         <div id="projects-container" className="projects-container" style={projectContainerStyle}>
             <h1 className="projects-header" style={projectContainerStyle}>Projects</h1>
             {projects.map(({name, description, link, img, language, tech}, i)=>{
-               return <Project key={i} className="project" name={name} description={description} link={link} image={img} language={language} tech={tech} />
+               return <Project key={i} className="project" name={name} description={description} link={link} image={img} language={language} tech={tech} style={style} />
             })}
         </div>
     )

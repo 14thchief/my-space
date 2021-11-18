@@ -1,8 +1,8 @@
 .project{
     width: 80%;
     height: 30vh;
-    background-color: rgb(54, 72, 131);
-    border-radius: 10px;
+    background-color: rgba(134, 0, 0, 0.747);
+    border-bottom-right-radius: 10px;
     text-align: center;
     margin: 5px auto;
     color: rgb(221, 219, 219);
@@ -16,7 +16,32 @@
     
     width: cover;
 	height: auto;
-	border-left: 25px solid transparent;
-	border-right: 25px solid transparent;
-	border-top: 100px solid rgb(0, 0, 0);
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-top: 100px solid rgb(134, 17, 17);
+}
+
+.p-name{
+    position: relative;
+    top: -80px;
+    left: -40px;
+    width: max-content;
+    border: 2px solid white;
+    margin: 0 auto;
+}
+
+.tech-stack{
+    position: relative;
+    bottom: 5%;
+    width: max-content;
+    border: 2px solid white;
+    margin: 0 auto;
+}
+
+.language{
+    position: relative;
+    bottom: -5%;
+    width: max-content;
+    border: 2px solid white;
+    margin: 0 auto;
 }
