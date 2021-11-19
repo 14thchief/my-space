@@ -14,8 +14,10 @@ export function ProfilePage(prop){
             setStyle({
                 //background-colors
                 bgColorHeader: '#2B2B2B',
+                headerBoxShadow: "0px 4px 10px rgb(0, 0, 0)",
                 bgColorIntro: "#2A2A2A",
                 bgColorTextBox: "#1D1D1D",
+                introBoxShadow: "inset -2px -1px 20px #1D1D1D",
                 textShadowColor: "grey",
                 bgColorProjects: "#424242",
                 bgColorProjectbox1: "#B4C7AA",
@@ -36,15 +38,17 @@ export function ProfilePage(prop){
             setStyle({
                 //backgrounds
                 bgColorHeader: '#E70C41',
+                headerBoxShadow: "0px 3px 10px #580000",
                 bgColorIntro: '#F9F8F8',
                 bgColorTextBox: "rgb(255, 255, 255)",
+                introBoxShadow: "inset -2px -1px 20px #cccccc",
                 textShadowColor: "grey",
                 bgColorProjects: '#EDEBEB',
                 bgColorProject1: '#E70C41',
                 bgColorProject2: "#9821A7",
                 //Font-colors
                 colorHeader: "#FFFFFF",
-                colorIntro1: '#236770',
+                colorIntro1: '#880e0e',
                 colorIntro2: '#A6A6A6',
                 colorIntro3: '#696969',
                 colorIntro4: '#424242',

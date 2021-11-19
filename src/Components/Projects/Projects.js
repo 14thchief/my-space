@@ -19,7 +19,7 @@ export function Projects({ style }){
 
     return(
         <div id="projects-container" className="projects-container" style={projectContainerStyle}>
-            <h1 className="projects-header" style={projectContainerStyle}>Projects</h1>
+            <h2 className="projects-header" style={projectContainerStyle}>Some projects, just to show range!</h2>
             {projects.map(({name, description, link, img, language, tech}, i)=>{
                return <Project key={i} className="project" name={name} description={description} link={link} image={img} language={language} tech={tech} style={style} />
             })}
